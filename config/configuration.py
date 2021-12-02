@@ -31,7 +31,10 @@ class Configuration:
     def get_secret_key(self):
         return self.__config["SECRET_KEY"]
 
+    def get_ticker_k(self):
+        return self.__config["TICKER_K"]
+
 if __name__=="__main__":
     os.chdir(str(pathlib.Path(__file__).parent.parent.absolute()))
-    config = Configuration('config_hhpp1231.json')
-    print(config.get_secret_key())
+    config = Configuration('config_bithumb_id.json')
+    dic = config.get_ticker_k()

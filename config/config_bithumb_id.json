@@ -1,0 +1,5 @@
+{
+  "CONNECT_KEY": "",
+  "SECRET_KEY": "",
+  "TICKER_K": {"BTC": 0.75, "ETH": 0.45, "SOL": 0.31, "LUNA": 0.03, "CHR": 0.03, "DOT": 0.08}
+}
